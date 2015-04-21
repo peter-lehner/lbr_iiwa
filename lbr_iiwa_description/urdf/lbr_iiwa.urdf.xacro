@@ -11,7 +11,7 @@
   <link name="world"/>
 
   <!--lbr-->
-  <xacro:lbr_iiwa name="lbr_iiwa" hardware_interface="$(arg prefix)" parent="world">
+  <xacro:lbr_iiwa name="lbr_iiwa" hardware_interface=" " parent="world">
     <origin xyz="0 0 0.0" rpy="0 0 0" />
   </xacro:lbr_iiwa>
 
